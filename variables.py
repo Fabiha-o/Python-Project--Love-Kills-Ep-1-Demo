@@ -1,0 +1,2 @@
+introText = "Smash! With a smash of a vase, everything changes. The creaks of the old wooden door of your boyfriends house has consumed your  ears, however, you're eyes are more set on the pieces of the vase in front of you, bathed in blood. That's not the worst part, as to your horror, the culprit shivering right beside the body is your beloved, Lily."
+print(introText)
