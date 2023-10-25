@@ -15,7 +15,9 @@ print()
 bpathTwo = "What evidence do you want to hide?"
 bpathOne = "The police are on to Lily. They have analyzed the data. They found Lily's fingerprints all over the murder weapon. Lily is now seen as the culprit, and you are her accomplice."
 #The ending question and the text theh user will always see after they choose to end the game, put into a variable
-endQ = "Restart DEMO of Ep 1?"
+endText = "Ep 2 is coming soon! Thanks for playing!"
+def endQ():
+    print("Restart DEMO of Ep 1?")
 endText = "Ep 2 is coming soon! Thanks for playing!"
     
 
@@ -37,7 +39,7 @@ while gameRunning == True:
         if sbOption == "1":
             sbpathOne = "The police has caught Lily at the airport. You were at the bathroom at that time so they couldn’t catch you. You have decided to go and save Lily! To be Continued- END OF EP 1"
             print(sbpathOne)
-            print(endQ)
+            endQ()
             endOption = input("Choose 1 for restart or 2 for end: ")
             if endOption == "1":
                 print("Reseting")
@@ -46,7 +48,7 @@ while gameRunning == True:
                 print(endText)
         else:
             print("You head off to a random forest. You get lost, and that’s not the worst part, as at that moment, a storm occurs. Luckily you see a cabin. But it looks old and dangerous. To be Continued- END OF EP 1")
-            print(endQ)
+            endQ()
             endOption = input("Choose 1 for restart or 2 for end: ")
             if endOption == "1":
                 print("Reseting")
