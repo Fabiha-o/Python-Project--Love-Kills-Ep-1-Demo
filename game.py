@@ -1,4 +1,5 @@
 
+
 #The text that the user will see first/ the introduction
 introText = "Smash! With a smash of a vase, everything changes. The creaks of the old wooden door of your boyfriend's house have consumed your ears; however, your eyes are more set on the pieces of the vase in front of you, bathed in blood. That's not the worst part, as to your horror, the culprit shivering right beside the body is your beloved, Lily."
 theStart = ["Love Kills", introText]
@@ -16,6 +17,7 @@ bpathTwo = "What evidence do you want to hide?"
 bpathOne = "The police are on to Lily. They have analyzed the data. They found Lily's fingerprints all over the murder weapon. Lily is now seen as the culprit, and you are her accomplice."
 #The ending question and the text theh user will always see after they choose to end the game, put into a variable
 endText = "Ep 2 is coming soon! Thanks for playing!"
+# This function is for the end question
 def endQ():
     print("Restart DEMO of Ep 1?")
 
