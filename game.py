@@ -18,9 +18,6 @@ bpathOne = "The police are on to Lily. They have analyzed the data. They found L
 endText = "Ep 2 is coming soon! Thanks for playing!"
 def endQ():
     print("Restart DEMO of Ep 1?")
-endText = "Ep 2 is coming soon! Thanks for playing!"
-    
-
 
 introQ = "Cover for Lily or run away with Lily right now?"
 print(introQ)
